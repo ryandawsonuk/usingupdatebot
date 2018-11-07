@@ -9,7 +9,7 @@ Next set your credentials in the updatebot-dryrun.sh script and uncomment the cr
 
 Run the updatebot-dryrun.sh script from the directory this was cloned into - see the console output for git diffs.
 
-The commands in the script do version replacements against a [jhipster sample app's](https://github.com/ryandawsonuk/jhipster-sample-app) versions in [pom.xml](https://github.com/ryandawsonuk/jhipster-sample-app/blob/master/pom.xml), [Dockerfile](https://github.com/ryandawsonuk/jhipster-sample-app/blob/master/Dockerfile) and [package.json](https://github.com/ryandawsonuk/jhipster-sample-app/blob/master/package.json).
+The commands in the script do version replacements against a [jhipster sample app's](https://github.com/ryandawsonuk/jhipster-sample-app) versions in the [pom.xml](https://github.com/ryandawsonuk/jhipster-sample-app/blob/master/pom.xml), [Dockerfile](https://github.com/ryandawsonuk/jhipster-sample-app/blob/master/Dockerfile) and [package.json](https://github.com/ryandawsonuk/jhipster-sample-app/blob/master/package.json).
 
 Without dry run [a PR](https://github.com/ryandawsonuk/jhipster-sample-app/pull/1/files) would be created.
 
