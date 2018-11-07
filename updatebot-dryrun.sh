@@ -18,12 +18,12 @@ git diff pom.xml
 #and go back to where we started
 cd ../../../..
 
-java -jar updatebot-1.1.31.jar push-version --kind docker openjdk 8-jdk
-cd updatebot-repos/github/ryandawsonuk/jhipster-sample-app/
-git diff Dockerfile
-cd ../../../..
-
 java -jar updatebot-1.1.31.jar push-version --kind npm ngx-cookie 2.0.2
 cd updatebot-repos/github/ryandawsonuk/jhipster-sample-app/
 git diff package.json
+cd ../../../..
+
+java -jar updatebot-1.1.31.jar push-version --kind docker openjdk 8-jdk
+cd updatebot-repos/github/ryandawsonuk/jhipster-sample-app/
+git diff Dockerfile
 cd ../../../..
